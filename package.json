@@ -10,7 +10,7 @@
     ],
     "scripts": {
         "start": "npm run dev",
-        "dev": "set NODE_ENV=prod && node ./dist/index.js",
+        "dev": "node src/index.ts",
         "prebuild": "npm run check",
         "build": "tsc",
         "lint": "eslint src",
